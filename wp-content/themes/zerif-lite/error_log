@@ -1,0 +1,2 @@
+[21-May-2016 12:48:45 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/leeoyote/public_html/wp-content/themes/zerif-lite/404.php on line 5
+[21-May-2016 19:27:43 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home3/leeoyote/public_html/wp-content/themes/zerif-lite/404.php on line 5

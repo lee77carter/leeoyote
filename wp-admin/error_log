@@ -1,0 +1,27 @@
+[06-Jan-2016 17:30:16 UTC] wizard_viewed
+[06-Jan-2016 17:30:43 UTC] wizard_started
+[06-Jan-2016 17:30:44 UTC] wizard_step_viewed
+[06-Jan-2016 17:31:25 UTC] wizard_step_completed
+[06-Jan-2016 17:31:26 UTC] wizard_step_viewed
+[06-Jan-2016 17:31:34 UTC] wizard_step_completed
+[06-Jan-2016 17:31:34 UTC] wizard_step_viewed
+[06-Jan-2016 17:32:04 UTC] wizard_step_completed
+[06-Jan-2016 17:32:05 UTC] wizard_step_viewed
+[06-Jan-2016 17:32:13 UTC] wizard_step_completed
+[06-Jan-2016 17:32:14 UTC] wizard_step_viewed
+[23-Apr-2016 21:00:21 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '/home3/leeoyote/public_html/wp-content/backupwordpress-ba0737efc9-backups/leeoyote-com-default-2-complete-2016-04-12-23-19-53.zip doesn't exist' in /home3/leeoyote/public_html/wp-content/plugins/backup-with-restore/classes/schedule.php:816
+Stack trace:
+#0 /home3/leeoyote/public_html/wp-content/plugins/backup-with-restore/admin/actions.php(14): HMBKP_Scheduled_Backup->delete_backup('/home3/leeoyote...')
+#1 [internal function]: hmbkp_request_delete_backup('')
+#2 /home3/leeoyote/public_html/wp-includes/plugin.php(525): call_user_func_array('hmbkp_request_d...', Array)
+#3 /home3/leeoyote/public_html/wp-admin/admin.php(226): do_action('load-toplevel_p...')
+#4 {main}
+  thrown in /home3/leeoyote/public_html/wp-content/plugins/backup-with-restore/classes/schedule.php on line 816
+[23-Apr-2016 21:00:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message '/home3/leeoyote/public_html/wp-content/backupwordpress-ba0737efc9-backups/leeoyote-com-default-2-complete-2016-04-12-23-19-53.zip doesn't exist' in /home3/leeoyote/public_html/wp-content/plugins/backup-with-restore/classes/schedule.php:816
+Stack trace:
+#0 /home3/leeoyote/public_html/wp-content/plugins/backup-with-restore/admin/actions.php(14): HMBKP_Scheduled_Backup->delete_backup('/home3/leeoyote...')
+#1 [internal function]: hmbkp_request_delete_backup('')
+#2 /home3/leeoyote/public_html/wp-includes/plugin.php(525): call_user_func_array('hmbkp_request_d...', Array)
+#3 /home3/leeoyote/public_html/wp-admin/admin.php(226): do_action('load-toplevel_p...')
+#4 {main}
+  thrown in /home3/leeoyote/public_html/wp-content/plugins/backup-with-restore/classes/schedule.php on line 816

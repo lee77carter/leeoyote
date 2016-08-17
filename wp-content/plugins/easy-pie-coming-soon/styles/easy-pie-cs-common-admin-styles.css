@@ -1,0 +1,10 @@
+.easy-pie-cs-on > a { 
+    background-color: rgb(220, 50, 50)!important;
+    color: #fff!important;
+    font-weight: bold!important;        
+}
+
+.easy-pie-cs-on > a:hover { 
+    background-color: black!important;
+    color: #00b9eb!important;
+}
